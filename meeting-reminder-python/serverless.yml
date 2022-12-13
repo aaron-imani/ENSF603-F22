@@ -1,0 +1,11 @@
+service: meeting-reminder-python
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  main:
+    handler: handler.validate
